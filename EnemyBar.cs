@@ -36,7 +36,7 @@ namespace Pong
             else if (position.Y + texture.Height > Game1.Height)
             {
                 position.Y = Game1.Height - texture.Height;
-            }     
+            }
         }
 
         public void Draw(SpriteBatch sprite)

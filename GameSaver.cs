@@ -23,14 +23,14 @@ namespace Pong
             {
                 playerScore = 0;
                 enemyScore = 0;
-                return;
+                return; 
             }     
 
             StreamReader reader = new StreamReader(path);
             string line = reader.ReadLine();
             string[] data = line.Split(' ');
             playerScore = int.Parse(data[0]);
-            enemyScore = int.Parse(data[1]);
+            enemyScore = int.Parse(data[1]); 
             reader.Close();
         }
     }

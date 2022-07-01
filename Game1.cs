@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
+using System.Diagnostics;
 
 namespace Pong
 {
@@ -95,6 +96,9 @@ namespace Pong
 
                     score.scoreEnemy++;
                 }
+
+                //float x = ball.position.X;
+                
 
                 if (ball.position.X > Width / 2)
                 {
